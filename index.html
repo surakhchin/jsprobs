@@ -4,12 +4,94 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>JS Bin</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+
+
+
 </head>
 <body>
+<br>
+<section class="container">
+<div class="row">
+<div class="col-sm">
 
 
-<h1> Hey wassup jsprobs</h1>
+
+<div class="card">
+<div class="card-header">
+<h1> Raw Problems</h1>
+</div>
 
 
+
+<div class="card-body">
+body
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+
+<div class="col-sm">
+
+
+
+
+<div class="card">
+<div class="card-header">
+<h1> Raw Solutions</h1>
+</div>
+
+
+
+<div class="card-body">
+body
+</div>
+
+
+</div>
+
+</div>
+</div>
+</section>
+<br>
+<section class="container">
+<div class="row">
+<div class="col">
+  <h1>TODO List:</h1>
+  <h2>
+    <ul>
+      <li>
+        Finish for loop for problems and solutions
+      </li>
+      <li>
+        create javascript object that most intuitive for updates
+      </li>
+    </ul>
+  </h2>
+</div>
+</div>
+</section>
+
+
+  <script>
+    var arrayVariable = ['https://jsbin.com/zoholiv/edit?html,js,console','two','three'],
+    arrayLength = arrayVariable.length;
+
+for (i = 0; i < arrayLength; i++) {
+
+  $('.card').append('<div class="card-body"><a href="'+arrayVariable[i]+'">https://jsbin.com/zoholiv/edit?html,js,console</a></div>');
+}
+  </script>
 </body>
+
 </html>
