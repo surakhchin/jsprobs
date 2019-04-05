@@ -14,23 +14,23 @@
 
 </head>
 <body>
-<br>
+<br><br><br><br><br><br><br><br>
 <section class="container">
 <div class="row">
 <div class="col-sm">
 
 
 
-<div class="card">
+<div class="card c1">
 <div class="card-header">
 <h1> Raw Problems</h1>
 </div>
 
 
 
-<div class="card-body">
-body
-</div>
+<!--<div class="card-body">-->
+<!--body-->
+<!--</div>-->
 
 
 
@@ -46,16 +46,16 @@ body
 
 
 
-<div class="card">
+<div class="card c2">
 <div class="card-header">
 <h1> Raw Solutions</h1>
 </div>
 
 
 
-<div class="card-body">
-body
-</div>
+<!--<div class="card-body">-->
+<!--body-->
+<!--</div>-->
 
 
 </div>
@@ -63,33 +63,53 @@ body
 </div>
 </div>
 </section>
-<br>
-<section class="container">
-<div class="row">
-<div class="col">
-  <h1>TODO List:</h1>
-  <h2>
-    <ul>
-      <li>
-        Finish for loop for problems and solutions
-      </li>
-      <li>
-        create javascript object that most intuitive for updates
-      </li>
-    </ul>
-  </h2>
-</div>
-</div>
-</section>
+<!--<br>-->
+<!--<section class="container">-->
+<!--<div class="row">-->
+<!--<div class="col">-->
+<!--  <h1>TODO List:</h1>-->
+<!--  <h2>-->
+<!--    <ul>-->
+<!--      <li>-->
+<!--        Finish for loop for problems and solutions-->
+<!--      </li>-->
+<!--      <li>-->
+<!--        create javascript object that most intuitive for updates-->
+<!--      </li>-->
+<!--    </ul>-->
+<!--  </h2>-->
+<!--</div>-->
+<!--</div>-->
+<!--</section>-->
 
 
   <script>
-    var arrayVariable = ['https://jsbin.com/zoholiv/edit?html,js,console','two','three'],
+
+// ------------------Main copy and paste area:------------------
+
+    var arrayVariable = [
+            'https://jsbin.com/jumuref/4/edit?js,console',
+            ],
     arrayLength = arrayVariable.length;
+    var arrayVariable2 = [
+            'https://jsbin.com/jumuref/3/edit?js,console',
+            ],
+    arrayLength2 = arrayVariable.length;
+
+
+// ------------------END copy and paste area------------------------
 
 for (i = 0; i < arrayLength; i++) {
 
-  $('.card').append('<div class="card-body"><a href="'+arrayVariable[i]+'">https://jsbin.com/zoholiv/edit?html,js,console</a></div>');
+  $('.c1').append('<div class="card-body"><a class="'+i+'" href="'+arrayVariable[i]+'"></a></div>');
+  $("." + i).html(i);
+
+}
+for (i = 0; i < arrayLength2; i++) {
+
+  $('.c2').append('<div class="card-body"><a class="2'+i+'" href="'+arrayVariable2[i]+'"></a></div>');
+  $(".2" + i).html(i);
+
 }
   </script>
 </body>
