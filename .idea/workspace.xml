@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="91" column="56" selection-start-line="91" selection-start-column="56" selection-end-line="91" selection-end-column="56" />
+            <state relative-caret-position="432">
+              <caret line="97" column="17" lean-forward="true" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -38,7 +38,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="293" />
+    <option name="y" value="1" />
     <option name="width" value="1734" />
     <option name="height" value="1407" />
   </component>
@@ -95,18 +96,20 @@
       <option name="presentableId" value="Default" />
       <updated>1554284225850</updated>
       <workItem from="1554284227479" duration="16628000" />
-      <workItem from="1554734082731" duration="397000" />
+      <workItem from="1554734082731" duration="1662000" />
+      <workItem from="1554743308925" duration="58000" />
+      <workItem from="1554867451988" duration="80000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17025000" />
+    <option name="totallyTimeSpent" value="18428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="3456" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.061248526" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0303298" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -135,8 +138,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="91" column="56" selection-start-line="91" selection-start-column="56" selection-end-line="91" selection-end-column="56" />
+        <state relative-caret-position="432">
+          <caret line="97" column="17" lean-forward="true" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
         </state>
       </provider>
     </entry>
